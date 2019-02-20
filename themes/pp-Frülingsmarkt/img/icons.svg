@@ -1,0 +1,63 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      g {
+        display: none;
+      }
+      g:target,
+      g:target g {
+        display: inline;
+      }
+      .weiss {
+        color: #ffffff;
+      }
+
+    </style>
+    <symbol id="menu" viewBox="0 0 85 83">
+      <title>Menü</title>
+      <rect width="85" height="83"/>
+      <rect x="23" y="27" fill="currentColor" width="38" height="6"/>
+      <rect x="23" y="40" fill="currentColor" width="38" height="6"/>
+      <rect x="23" y="53" fill="currentColor" width="38" height="6"/>
+    </symbol>
+    <symbol id="facebook" viewBox="0 0 35.55 35.616">
+      <title>facebook</title>
+      <path
+        fill="#000000"
+        d="M28.742,0.308c1.808,0,3.354,0.642,4.637,1.925c1.284,1.284,1.926,2.83,1.926,4.637v21.875
+      c0,1.808-0.642,3.354-1.926,4.637c-1.283,1.284-2.829,1.925-4.637,1.925h-4.283V21.75h4.533l0.684-5.286h-5.217v-3.373
+      c0-0.851,0.178-1.489,0.535-1.914c0.356-0.425,1.052-0.638,2.084-0.638l2.781-0.022V5.799c-0.957-0.137-2.31-0.205-4.057-0.205
+      c-2.066,0-3.718,0.607-4.956,1.823s-1.856,2.932-1.856,5.15v3.896h-4.559v5.286h4.559v13.558H6.867
+      c-1.808,0-3.354-0.642-4.637-1.925c-1.284-1.284-1.926-2.83-1.926-4.637V6.87c0-1.808,0.642-3.354,1.926-4.637
+      c1.283-1.284,2.829-1.925,4.637-1.925H28.742z"/>
+    </symbol>
+    <symbol id="arrow-down" viewBox="0 0 77.992 75.25">
+      <title>arrow-down</title>
+      <path d="M0,0.75c0,0,64.783,9.5,77.992,75.5H0V0.75z"/>
+      <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="13.883,39.468 28.914,54.5 44,39.414 "/>
+    </symbol>
+    <symbol id="arrow-up" viewBox="0 0 77.992 75.25">
+      <title>arrow-up</title>
+      <path d="M0,0.75c0,0,64.783,9.5,77.992,75.5H0V0.75z"/>
+      <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="13.883,53.696 28.914,38.664 44,53.75 "/>
+    </symbol>
+    <symbol id="arrow-totop" viewBox="0 0 77.992 75.25">
+      <title>arrow-up</title>
+      <rect fill="currentColor" y="0.25" width="78" height="75"/>
+      <path d="M0,0c0,0,64.783,9.25,77.992,75.25H0V0z"/>
+      <polyline fill="currentColore" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="13.883,53.696 28.914,38.664 44,53.75 "/>
+    </symbol>
+    <symbol id="plus" viewBox="0 0 153.638 147.3">
+      <title>plus</title>
+      <path  d="M0,0c0,0,127.816,19.3,153.638,147.3H0V0z"/>
+      <g>
+      	<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="88.205" y1="85.911" x2="34.616" y2="85.911"/>
+      	<line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="61.41" y1="112.706" x2="61.41" y2="59.116"/>
+      </g>
+    </symbol>
+  </defs>
+  <!--
+<g id="menu-weiss">
+<use class="weiss" xlink:href="#menu" />
+</g> -->
+</svg>

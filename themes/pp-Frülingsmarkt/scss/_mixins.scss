@@ -1,0 +1,13 @@
+@mixin grid-dependend-space ($property, $divider: 2, $gutter: $grid-column-gutter) {
+	@if type-of($gutter ) == 'map' {
+		@each $breakpoint, $value in $gutter {
+			 @include breakpoint($breakpoint){
+				#{$property}: rem-calc($value) / $divider;
+			}
+		}
+	}
+
+	@else if type-of($gutter) == 'number' and strip-unit($gutter) > 0 {
+		#{$property}: rem-calc($gutter) / $divider;
+	}
+}
